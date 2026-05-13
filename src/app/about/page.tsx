@@ -90,18 +90,13 @@ export default function AboutPage() {
                 desc: "查看我的代码仓库",
               },
               {
-                label: "Gitee",
-                href: "https://gitee.com/guise-zxy",
-                desc: "查看我的代码仓库（国内）",
-              },
-              {
                 label: "小红书",
-                href: "https://xiaohongshu.com/user/your-id",
+                href: "https://www.xiaohongshu.com/user/profile/60e86f1d000000000101d14e",
                 desc: "我的个人表达",
               },
               {
                 label: "邮箱",
-                href: "mailto:your-email@example.com",
+                href: "mailto:zhangxinyi200612@outlook.com",
                 desc: "发送邮件",
               },
             ].map((link) => (

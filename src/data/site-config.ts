@@ -38,18 +38,13 @@ export const siteConfig: SiteConfig = {
       icon: "github",
     },
     {
-      label: "Gitee",
-      href: "https://gitee.com/guise-zxy",
-      icon: "gitlab",
-    },
-    {
       label: "小红书",
-      href: "https://xiaohongshu.com/user/your-id",
+      href: "https://www.xiaohongshu.com/user/profile/60e86f1d000000000101d14e",
       icon: "book-open",
     },
     {
       label: "邮箱",
-      href: "mailto:your-email@example.com",
+      href: "mailto:zhangxinyi200612@outlook.com",
       icon: "mail",
     },
   ],
