@@ -21,7 +21,7 @@ export const abilities: Ability[] = [
       "嵌入式智能睡眠辅助系统",
     ],
     tags: ["心态", "建设性", "问题转化"],
-    href: "/projects/rk-lightweight-stack",
+    href: "/tencent-hr",
   },
   {
     id: "self-driven",
@@ -36,7 +36,7 @@ export const abilities: Ability[] = [
       "嵌入式智能睡眠辅助系统",
     ],
     tags: ["自驱", "主动", "拆解问题"],
-    href: "/projects/ai-job-self-checker",
+    href: "/tencent-hr",
   },
   {
     id: "help-others",
@@ -50,7 +50,7 @@ export const abilities: Ability[] = [
       "南方电网 RK3588S Linux 测试项目",
     ],
     tags: ["成就他人", "文档沉淀", "工具化思维"],
-    href: "/projects/ai-job-self-checker",
+    href: "/tencent-hr",
   },
   {
     id: "hr-exploration",

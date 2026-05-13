@@ -46,10 +46,10 @@ export default function HeroSection() {
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
-              href="/projects"
+              href="/about"
               className="inline-flex items-center gap-2 px-6 py-3 border border-[var(--color-border)] text-[#4e525b] font-medium rounded-lg hover:bg-[var(--color-surface)] hover:border-[var(--color-primary)]/30 transition-colors"
             >
-              查看项目经历
+              关于我
               <ArrowRight className="w-4 h-4" />
             </Link>
             <a
