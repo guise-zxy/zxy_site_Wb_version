@@ -23,7 +23,7 @@ export const abilities: Ability[] = [
     experience: "",
     relatedProjects: [
       "南方电网IPv6+测试开发与测试项目",
-      "嵌入式智能睡眠辅助系统",
+      "基于日间光照感知与夜间环境联动的智能睡眠辅助系统",
     ],
     tags: ["心态", "建设性", "问题转化"],
     href: "/tencent-hr",
