@@ -100,8 +100,6 @@ export const abilities: Ability[] = [
     experience: "",
     relatedProjects: [
       "AI 求职自检官",
-      "AI-HR 方向思考文章",
-      "腾讯 HR 岗位匹配页",
     ],
     tags: ["AI-HR", "探索", "人才匹配"],
     href: "/tencent-hr",
