@@ -1,3 +1,8 @@
+export interface ProofImage {
+  src: string
+  alt: string
+}
+
 export interface Ability {
   id: string
   title: string
@@ -6,6 +11,7 @@ export interface Ability {
   relatedProjects: string[]
   tags: string[]
   href: string
+  proofImages?: ProofImage[]
 }
 
 export const abilities: Ability[] = [
@@ -22,6 +28,16 @@ export const abilities: Ability[] = [
     ],
     tags: ["心态", "建设性", "问题转化"],
     href: "/tencent-hr",
+    proofImages: [
+      {
+        src: "/images/proof/positive-mindset/1.jpg",
+        alt: "遇到困难能及时转换心态，借助现有资料和AI，向有经验的老师请教如何在新业务中快速上手",
+      },
+      {
+        src: "/images/proof/positive-mindset/2.jpg",
+        alt: "积极主动，遇到学习上的疑惑会借助外部资源，主动向前辈请教可能解",
+      },
+    ],
   },
   {
     id: "self-driven",
@@ -37,6 +53,20 @@ export const abilities: Ability[] = [
     ],
     tags: ["自驱", "主动", "拆解问题"],
     href: "/tencent-hr",
+    proofImages: [
+      {
+        src: "/images/proof/self-driven/1.jpg",
+        alt: "喜欢主动思考并影响其他人，愿意把自己的思考分享给别人",
+      },
+      {
+        src: "/images/proof/self-driven/2.jpg",
+        alt: "乐于自我反思，和TA讨论我在面临一些事情时的反应，寻找我究竟是个什么样的人",
+      },
+      {
+        src: "/images/proof/self-driven/681794379295f315dbdb3c94aad8a59a.jpg",
+        alt: "敢于承担更高的责任，学姐鼓励我担任比赛组长，以及她对我的评价",
+      },
+    ],
   },
   {
     id: "help-others",
@@ -51,6 +81,20 @@ export const abilities: Ability[] = [
     ],
     tags: ["成就他人", "文档沉淀", "工具化思维"],
     href: "/tencent-hr",
+    proofImages: [
+      {
+        src: "/images/proof/help-others/1.jpg",
+        alt: "给负责嵌赛项目画板的同学心态和做事思路上的建议，真正帮助了她",
+      },
+      {
+        src: "/images/proof/help-others/2.jpg",
+        alt: "机缘巧合认识因学业与项目投入不平衡而焦虑的学弟，给出了直接建议",
+      },
+      {
+        src: "/images/proof/help-others/3.jpg",
+        alt: "面对尊敬的老师，在认为会影响其工作的问题面前也会给出可行建议",
+      },
+    ],
   },
   {
     id: "hr-exploration",
@@ -66,5 +110,11 @@ export const abilities: Ability[] = [
     ],
     tags: ["AI-HR", "探索", "人才匹配"],
     href: "/tencent-hr",
+    proofImages: [
+      {
+        src: "/images/proof/hr-exploration/对HR有探索之心.png",
+        alt: "对HR有探索之心的证明",
+      },
+    ],
   },
 ]

@@ -1,10 +1,8 @@
 import type { Metadata } from "next"
 import SectionTitle from "@/components/SectionTitle"
 import AbilityCard from "@/components/AbilityCard"
-import JDMatchCard from "@/components/JDMatchCard"
 import Tag from "@/components/Tag"
 import { abilities } from "@/data/abilities"
-import { jdMatches } from "@/data/jd-matches"
 
 export const metadata: Metadata = {
   title: "我为什么适合腾讯 HR 日常实习",
@@ -58,91 +56,6 @@ export default function TencentHRPage() {
                 tags={ability.tags}
                 href={ability.href}
               />
-            ))}
-          </div>
-        </section>
-
-        {/* 3. JD 匹配分析 */}
-        <section className="mb-16">
-          <SectionTitle
-            title="岗位 JD 匹配分析"
-            subtitle="同时覆盖 AI-HR 培训生和项目实习生-人力资源两个方向。"
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {jdMatches.map((match) => (
-              <JDMatchCard
-                key={match.title}
-                title={match.title}
-                keywords={match.keywords}
-                evidence={match.evidence}
-              />
-            ))}
-          </div>
-        </section>
-
-        {/* 4. 项目证据快照 */}
-        <section className="mb-16">
-          <SectionTitle
-            title="我的项目证据"
-            subtitle="每个项目都对应着岗位要求的具体能力。"
-          />
-
-          <div className="space-y-4">
-            {[
-              {
-                title:
-                  "AI 求职自检官：面向大学生的岗位能力诊断与面试陪练工具",
-                abilities: ["AI 应用", "用户思维", "产品思维", "HR 场景理解"],
-              },
-              {
-                title:
-                  "南方电网 RK3588S Linux 测试与传输优化项目（同级小组长）",
-                abilities: [
-                  "沟通协调",
-                  "执行力",
-                  "文档沉淀",
-                  "成就他人",
-                ],
-              },
-              {
-                title:
-                  "嵌入式智能睡眠辅助系统（项目负责人）",
-                abilities: [
-                  "项目推进",
-                  "系统思维",
-                  "团队协作",
-                  "问题拆解",
-                ],
-              },
-              {
-                title: "C++ 高并发内存池",
-                abilities: [
-                  "技术学习",
-                  "代码能力",
-                  "自驱学习",
-                  "底层理解",
-                ],
-              },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="flex items-start gap-4 bg-white rounded-xl border border-[var(--color-border)] p-5 shadow-sm"
-              >
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[var(--color-primary)] text-white text-sm font-bold shrink-0">
-                  {i + 1}
-                </span>
-                <div>
-                  <h3 className="font-semibold text-[var(--color-foreground)]">
-                    {item.title}
-                  </h3>
-                  <div className="mt-2 flex flex-wrap gap-1.5">
-                    {item.abilities.map((ab) => (
-                      <Tag key={ab} label={ab} variant="ability" />
-                    ))}
-                  </div>
-                </div>
-              </div>
             ))}
           </div>
         </section>
