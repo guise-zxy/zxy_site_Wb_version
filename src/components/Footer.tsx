@@ -33,8 +33,6 @@ export default function Footer() {
               <a
                 key={link.label}
                 href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="text-[var(--color-muted)] hover:text-[var(--color-primary)] transition-colors"
                 aria-label={link.label}
               >
