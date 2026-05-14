@@ -39,12 +39,14 @@ export default function AbilityCard({
           {description}
         </p>
 
-        <div className="mb-4">
-          <p className="text-sm text-[var(--color-muted)] leading-relaxed">
-            <span className="font-medium text-[var(--color-foreground)]">相关经历：</span>
-            {experience}
-          </p>
-        </div>
+        {experience && (
+          <div className="mb-4">
+            <p className="text-sm text-[var(--color-muted)] leading-relaxed">
+              <span className="font-medium text-[var(--color-foreground)]">相关经历：</span>
+              {experience}
+            </p>
+          </div>
+        )}
 
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map((tag) => (
