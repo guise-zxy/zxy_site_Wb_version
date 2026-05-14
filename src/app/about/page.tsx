@@ -37,31 +37,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* 能力标签 */}
-        <section className="mb-12">
-          <h2 className="text-xl font-bold text-[var(--color-foreground)] mb-4">
-            能力方向
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {[
-              "AI-HR 探索",
-              "技术背景",
-              "项目推进",
-              "自驱执行",
-              "成就他人",
-              "组织协作",
-              "持续复盘",
-              "嵌入式开发",
-              "Linux 测试",
-              "C++ 开发",
-              "AI Agent",
-              "文档沉淀",
-            ].map((skill) => (
-              <Tag key={skill} label={skill} variant="ability" />
-            ))}
-          </div>
-        </section>
-
         {/* 简历下载 */}
         <section className="mb-12">
           <h2 className="text-xl font-bold text-[var(--color-foreground)] mb-4">
