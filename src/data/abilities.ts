@@ -22,7 +22,7 @@ export const abilities: Ability[] = [
       "遇到困难，能及时转换心态去迎接它。第一次接手新项目时，因为担心自己的推进速度太慢，因此借助现有资料和AI，同时向一位以前在华为做交换机业务的老师请教「如何在新业务中快速上手？」\n\n积极主动。遇到学习上的疑惑，会借助外部资源，比如主动向前辈请教「可能解」。",
     experience: "",
     relatedProjects: [
-      "南方电网 RK3588S Linux 测试与传输优化项目",
+      "南方电网IPv6+测试开发与测试项目",
       "嵌入式智能睡眠辅助系统",
     ],
     tags: ["心态", "建设性", "问题转化"],
@@ -74,7 +74,7 @@ export const abilities: Ability[] = [
     experience: "",
     relatedProjects: [
       "AI 求职自检官",
-      "南方电网 RK3588S Linux 测试项目",
+      "南方电网IPv6+测试开发与测试项目",
     ],
     tags: ["成就他人", "文档沉淀", "工具化思维"],
     href: "/tencent-hr",
