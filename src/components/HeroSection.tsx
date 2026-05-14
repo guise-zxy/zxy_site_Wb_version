@@ -26,7 +26,7 @@ export default function HeroSection() {
 
           {/* Subtitle */}
           <p className="mt-6 text-lg md:text-xl text-[#4e525b] leading-relaxed">
-            一个有技术背景、关注人和组织问题、正在探索 AI-HR 方向的学生。
+            一个有技术背景、能在价值传递中获取能量、正在探索 AI-HR 方向的学生。
           </p>
 
 
