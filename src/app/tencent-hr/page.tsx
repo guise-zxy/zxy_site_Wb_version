@@ -55,6 +55,7 @@ export default function TencentHRPage() {
                 relatedProjects={ability.relatedProjects}
                 tags={ability.tags}
                 href={ability.href}
+                proofImages={ability.proofImages}
               />
             ))}
           </div>
