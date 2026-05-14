@@ -20,31 +20,8 @@ export default function TencentHRPage() {
           subtitle="这不是泛泛投递，而是经过认真理解后的匹配分析。"
         />
 
-        {/* 2. 能力模型匹配 */}
+        {/* 我能贡献什么 */}
         <section className="mb-16">
-          <SectionTitle
-            title="腾讯 HR 能力模型匹配"
-            subtitle="按照腾讯 HR Star 能力模型，用具体经历证明匹配度。"
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {abilities.map((ability) => (
-              <AbilityCard
-                key={ability.id}
-                title={ability.title}
-                description={ability.description}
-                experience={ability.experience}
-                relatedProjects={ability.relatedProjects}
-                tags={ability.tags}
-                href={ability.href}
-                proofImages={ability.proofImages}
-              />
-            ))}
-          </div>
-        </section>
-
-        {/* 5. 我能贡献什么 */}
-        <section>
           <SectionTitle
             title="如果加入腾讯 HR，我能贡献什么"
             subtitle="从项目推进、技术思维和流程优化三个维度，为团队带来即战力。"
@@ -99,6 +76,29 @@ export default function TencentHRPage() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* 能力模型匹配 */}
+        <section>
+          <SectionTitle
+            title="腾讯 HR 能力模型匹配"
+            subtitle="按照腾讯 HR Star 能力模型，用具体经历证明匹配度。"
+          />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {abilities.map((ability) => (
+              <AbilityCard
+                key={ability.id}
+                title={ability.title}
+                description={ability.description}
+                experience={ability.experience}
+                relatedProjects={ability.relatedProjects}
+                tags={ability.tags}
+                href={ability.href}
+                proofImages={ability.proofImages}
+              />
+            ))}
           </div>
         </section>
       </div>
