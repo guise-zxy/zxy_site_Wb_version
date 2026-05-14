@@ -20,24 +20,6 @@ export default function TencentHRPage() {
           subtitle="这不是泛泛投递，而是经过认真理解后的匹配分析。"
         />
 
-        {/* 1. 我对腾讯 HR 岗位的理解 */}
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[var(--color-foreground)] mb-6">
-            我对腾讯 HR 岗位的理解
-          </h2>
-          <div className="bg-[var(--color-primary-light)] rounded-xl p-6 md:p-8">
-            <p className="text-[#4e525b] leading-relaxed mb-4">
-              我理解的腾讯 HR，不只是招聘流程执行者，而是连接业务、人才和组织效率的人。
-            </p>
-            <p className="text-[#4e525b] leading-relaxed mb-4">
-              在 AI 时代，HR 的工作正在从传统的人力资源管理，走向更智能的人才理解、能力评估、员工体验和组织协作优化。
-            </p>
-            <p className="text-[#4e525b] leading-relaxed">
-              因此，我希望用自己的技术背景、项目经历和用户理解能力，探索 AI 如何帮助 HR 更高效地识别人、理解人、支持人成长。
-            </p>
-          </div>
-        </section>
-
         {/* 2. 能力模型匹配 */}
         <section className="mb-16">
           <SectionTitle
