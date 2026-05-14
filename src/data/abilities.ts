@@ -47,7 +47,7 @@ export const abilities: Ability[] = [
     relatedProjects: [
       "AI 求职自检官",
       "个人能力展示站",
-      "嵌入式智能睡眠辅助系统",
+      "基于日间光照感知与夜间环境联动的智能睡眠辅助系统",
     ],
     tags: ["自驱", "主动", "拆解问题"],
     href: "/tencent-hr",
