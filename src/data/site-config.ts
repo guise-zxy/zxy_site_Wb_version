@@ -40,9 +40,9 @@ export const siteConfig: SiteConfig = {
       icon: "book-open",
     },
     {
-      label: "邮箱",
-      href: "mailto:zhangxinyi200612@outlook.com",
-      icon: "mail",
+      label: "技术博客",
+      href: "https://blog.csdn.net/geniuszzxy?spm=1000.2115.3001.5343",
+      icon: "book-open",
     },
   ],
   resumeUrl: "/resume/resume.pdf",

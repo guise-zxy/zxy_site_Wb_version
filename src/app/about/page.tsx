@@ -70,9 +70,9 @@ export default function AboutPage() {
                 desc: "我的个人表达",
               },
               {
-                label: "邮箱",
-                href: "mailto:zhangxinyi200612@outlook.com",
-                desc: "发送邮件",
+                label: "技术博客",
+                href: "https://blog.csdn.net/geniuszzxy?spm=1000.2115.3001.5343",
+                desc: "我的 CSDN 博客",
               },
             ].map((link) => (
               <a
