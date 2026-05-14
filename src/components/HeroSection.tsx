@@ -29,12 +29,6 @@ export default function HeroSection() {
             一个有技术背景、关注人和组织问题、正在探索 AI-HR 方向的学生。
           </p>
 
-          {/* Description */}
-          <p className="mt-4 text-base text-[var(--color-muted)] leading-relaxed max-w-2xl">
-            我希望把技术能力、用户理解和组织协作结合起来，探索 AI 如何提升招聘、
-            人才匹配、员工体验和 HR 工作效率。这个网站用于展示我的项目经历、
-            岗位思考、能力证据和持续成长记录。
-          </p>
 
           {/* CTA Buttons */}
           <div className="mt-8 flex flex-wrap gap-3">
